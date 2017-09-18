@@ -20,3 +20,9 @@
   </tr>
   <% end %>
 </table>
+
+<td>
+  <%= render_job_status(job) %>
+
+  <%=link_to(job.title, admin_job_path(job)) %>
+</td>
